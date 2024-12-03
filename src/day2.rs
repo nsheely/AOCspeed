@@ -68,7 +68,7 @@ pub fn part1(input: &str) -> u32 {
 }
 
 #[aoc(day2, part2)]
-pub fn part2(input: &str) -> u64 {
+pub fn part2(input: &str) -> u32 {
     let bytes = input.as_bytes();
     let len = bytes.len();
     let mut i = 0;
