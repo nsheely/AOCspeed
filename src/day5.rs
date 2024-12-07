@@ -1,3 +1,4 @@
+#[aoc(day5, part1)]
 pub fn part1(input: &str) -> u32 {
     const MAX_PAGE: usize = 100;
     const MAX_UPDATE_LEN: usize = 32;
@@ -58,6 +59,7 @@ pub fn part1(input: &str) -> u32 {
     sum
 }
 
+#[aoc(day5, part2)]
 pub fn part2(input: &str) -> u32 {
     const MAX_PAGE: usize = 100;
     const MAX_UPDATE_LEN: usize = 32;
